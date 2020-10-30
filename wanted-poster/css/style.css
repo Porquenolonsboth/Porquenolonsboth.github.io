@@ -143,9 +143,20 @@ img
     max-width: 50rem;
 }
 
-figure{}
+figure
+{
+    margin-bottom: 2rem;
+}
 
-figcaption{}
+figcaption
+{
+    padding-top: .5rem;
+    text-align: right;
+}
 /* Footer */
 
-footer{}
+footer
+{
+    padding: 1rem;
+    border-top: #333 solid;
+}
