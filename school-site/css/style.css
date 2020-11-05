@@ -180,23 +180,33 @@ text-transform: uppercase;
 
 nav
 {
+padding-left: 0;
+    margin-top: .25rem;
 
 }
 
 nav a
 {
-
+    text-underline: none;
+    link: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
 }
 
 nav a:focus,
 nav a:hover
 {
-
+    color:#FFF;
+    background-color: #33658A;
 }
 
 nav a:active
 {
-
+    color:#FFF;
+    background-color: #000;
 }
 
 /* Footer Styles */
@@ -204,7 +214,7 @@ nav a:active
 
 footer
 {
-
+text-align: center;
 }
 
 
