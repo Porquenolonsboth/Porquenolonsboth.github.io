@@ -137,30 +137,72 @@ font-size: .75rem;
     margin-bottom: 2rem;
 }
 /* Link Styling */
+a
+{
+   outline: none;
 
+}
 
+a:link,
+a:visited
+{
+    color: #33658A;
+}
 
-
-
+a:focus,
+a:hover
+{
+border-bottom: none;
+}
 
 /* List Styling */
 
+ul
+{
 
+}
 
+ol
+{
 
+}
+
+.long-list a:hover
+{
+
+}
 
 
 /* Navigation Menu */
 
+nav
+{
 
+}
 
+nav a
+{
 
+}
 
+nav a:focus,
+nav a:hover
+{
+
+}
+
+nav a:active
+{
+
+}
 
 /* Footer Styles */
 
 
+footer
+{
 
+}
 
 
 
