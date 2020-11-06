@@ -102,6 +102,7 @@ html
 
 h1
 {
+    font-family: josefinslab,arial,sans-serif;
   font-size: 3.75rem;
   margin: 1.125rem;
   text-align: center;
@@ -110,6 +111,7 @@ h1
 
 h2
 {
+    font-family: josefinslab,arial,sans-serif;
    font-size: 1.5rem;
 }
 
@@ -117,18 +119,21 @@ h2 + p
 {
 
     text-indent: 1.5rem;
+
 }
 
 p
 {
     font-size: .75rem;
     letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
 }
 
 li
 {
     font-size: .75rem;
     letter-spacing: 0.03125rem;
+    text-decoration: none;
 }
 
 figcaption
@@ -172,6 +177,7 @@ ol
 
 .long-list a:hover
 {
+    margin: 1rem 0;
 text-transform: uppercase;
 }
 
